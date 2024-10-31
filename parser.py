@@ -2,7 +2,7 @@ import argparse
 import ipaddress
 import re
 
-log_file_path = '/home/pi/intercomm/public_access.log.txt'  # Path to log file
+log_file_path = '<PATH>/access.log'  # Path to log file
 
 def extract_logs_for_ipcidr(log_file_path, user_input):
     # Regular expression pattern to match an IP address
